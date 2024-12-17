@@ -1,0 +1,96 @@
+@charset "UTF-8" ;
+
+* {
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #BFA095, #f8e1d8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+main {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #a88578;
+    width: 600px;
+    padding: 10px;
+    
+    
+    
+    
+}
+
+main:hover {
+    background-color: rgb(224, 224, 224);
+    
+    
+    
+
+}
+
+
+.aviso {
+    display: none;
+    position: absolute;
+    left: 80%;
+    margin-left: 10px;
+}
+
+main:hover ~ .aviso {
+    display: block;
+}
+
+
+
+h1 {
+    color: #85A6A2;
+    text-align: center;
+    text-shadow: 1px 1px 2px #67807dce;
+
+}
+
+h2 {
+    color: #9FBFBC;
+
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+/* <main>	->	div especial, indica que o conteúdo é principal
+
+width	->	largura da caixa
+
+padding	->	espaço lateral do texto dentro da caixa
+
+margin	->	margem do texto (auto, 3px, ...) 
+
+text-align	->	alinhamento do texto (center, end, justify, ...)
+
+border-radius	-> cantos da caixa arredondados
+
+box-shadow / text-shadow	->	sombra da caixa
+
+    - parâmetros: tam. sombra p/ lado, tam. sombra p/ baixo, espalhamento, cor;
+
+	Ex:	box-shadow: 5px 5px 15px rgba(138, 111, 95, 0.616);
+		text-shadow: 1px 1px 2px rgba(129, 78, 5, 0.733); */
