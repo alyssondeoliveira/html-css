@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-* {
-    margin: 0px;
-    padding: 0px;
-    font-size: 1em
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
@@ -14,6 +9,12 @@
     --fonte1: Verdana, 'Geneva', Tahoma, sans-serif;
     --fonte2: 'Passion One', 'cursive';
     --fonte3: 'Sriracha', 'cursive';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em
 }
 
 header {
