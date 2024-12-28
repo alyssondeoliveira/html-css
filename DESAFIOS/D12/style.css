@@ -24,8 +24,7 @@ html, body {
     min-height: 100vh;
     font-family: var(--fonte1);
     background-color: darkgray;  
-    margin: 0;
-    padding: 0;  
+    
 }
 
 
