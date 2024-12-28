@@ -3,6 +3,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 
 
 :root {
@@ -12,15 +14,18 @@
 }
 
 
-html, body {
-    min-height: 100vh;
-    background-color: darkgray;    
-}
-
 * {
     margin: 0px;
     padding: 0px;
     font-size: 1em
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: var(--fonte1);
+    background-color: darkgray;  
+    margin: 0;
+    padding: 0;  
 }
 
 
@@ -34,15 +39,87 @@ header {
 }
 
 header > h1 {
-    
-    font: normal bold 10vw var(--fonte2);
+    font: normal bold 7vw var(--fonte2);
     padding-top: 50px;
-    
-    
 }
+    
+#first_letter {
+    font-size: 10vw;
+}    
+    
+    
 
 header > p {
     padding-bottom: 50px;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font: normal normal 3.5vw var(--fonte3);
+    
+}
+
+section {
+    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    text-align: left;
+}
+
+section p{
+    padding-bottom: 2em;
+
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+    
+}
+
+section.imagem {
+    color: white;
+    box-shadow: inset 5px 5px 15px  rgba(0, 0, 0, 0.550);
+    
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px 2px black;
+    border-radius: 5px;
+    padding: 5px;
+    width: fit-content;
+    
+}
+
+#img01 {
+    background: black url(imagens/background001.jpg) right center  no-repeat fixed;
+    background-size: cover;
+}
+
+#img02 {
+    background: black url(imagens/background002.jpg) center top no-repeat fixed;
+    background-size: cover;
+    
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 
