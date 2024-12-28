@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+
+:root {
+    --fonte1: Verdana, 'Geneva', Tahoma, sans-serif;
+    --fonte2: 'Passion One', 'cursive';
+    --fonte3: 'Sriracha', 'cursive';
+}
+
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em
+}
+
+
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+header > h1 {
+    
+    font: normal bold 10vw var(--fonte2);
+    padding-top: 50px;
+    
+    
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+
