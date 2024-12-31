@@ -8,11 +8,11 @@
     <style>
         @keyframes bounce {
 
-            0%,
+            /* 0%,
             100% {
-                transform: translateY(0) scale(1);
+                transform: translateY(0) scale(1); --- o from, nesse caso, pode ser substituido pelo alternate no animation:
                 
-            }
+            } */
 
             50% {
                 transform: translateY(80px) scale(0.5);
@@ -27,7 +27,7 @@
             height: 50px;
             background-color: #ff5722;
             border-radius: 50%;
-            animation: bounce 1s ease-in-out infinite;
+            animation: bounce 1s alternate ease-in-out infinite;
         }
     </style>
 </head>
