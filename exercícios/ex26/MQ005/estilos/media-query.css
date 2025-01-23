@@ -2,24 +2,55 @@
 
 
 @media screen and (min-width: 768px){
- 
+    
+
+    @keyframes move {
+        to {
+            transform: translateY(-3px);
+
+        }
+        
+    }
    
     i#burguer {
         display: none;
     }
 
+    header
+
     menu{
         display: inline-block;
+        margin-top: 5px;
+        position: relative;
+        
                
     }
 
     menu > ul {
         display: flex;
         
+        
     }
 
     menu > ul > li {
         margin-right: 5px;
+        
+        
+        
+             
+    }
+
+    menu > ul > li > a {
+        border-radius: 5px;
+        
+        
+        
+    }
+
+    menu > ul > li > a:hover {
+        animation: move 0.5s both;
+        
+        border-radius: 3px;
     }
 
     main {
