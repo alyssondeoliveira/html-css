@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-family: sans-serif;
+            min-height: 100vh;
+
+        }
+
+        header {
+            margin-bottom: 40px;
+            min-width: 320px;
+            max-width: 100%;
+            height: 10vh;
+        }
+
+        h1 {
+            padding: 10px;
+            text-align: center;
+            font: normal bold 2.5em 'Arial';
+        }
+
+        nav {
+            
+            padding: 10px;
+            margin-bottom: 20px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        nav > ul{
+            display: flex;
+            padding: 5px;
+            list-style: none
+                     
+        }
+       
+
+        li > a {
+            text-decoration: none;
+            margin-right: 10px;
+            padding: 10px;
+            list-style: none;
+            color: black;
+            background-color: rgb(247, 247, 247);
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+
+        
+
+        main {
+            max-width: 98%;
+            padding: 40px 0px;
+            margin: auto;
+
+        }      
+        
+        
+        iframe#tela {
+            width: 94%;
+            height: 100%;
+            min-height: 300px;
+            max-height: 640px;
+            overflow: hidden;
+            padding: 20px;
+            display: block;
+            margin: auto;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Faça uma escolha</h1>
+        <nav>
+            <ul>
+                <li><a href="paginas-extras/pagina001.html" target="frame">Primeira</a></li>
+                <li><a href="paginas-extras/pagina002.html" target="frame">Segunda</a></li>
+                <li><a href="paginas-extras/pagina003.html" target="frame">Terceira</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, aut! Eum modi officiis ut doloribus aliquam non tempore, veritatis impedit repellat necessitatibus, esse eaque. Modi pariatur quasi soluta atque quos!</p>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti dignissimos sint quasi voluptatum maiores facere veniam alias itaque. Incidunt nostrum at consequatur a reprehenderit, architecto vero. Illum, temporibus dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repellendus consectetur libero dolor ut molestias doloribus maiores ratione sapiente, nulla incidunt magnam dicta hic, harum minus architecto, nobis nemo provident.</p>
+        
+            
+            <iframe src="" frameborder="0" id="tela" name="frame" srcdoc=" <h1>Aqui serão exibidas as páginas do menu.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum sequi consequuntur ut. Perferendis doloremque magnam vel! Similique voluptas labore amet repellat. Aperiam dicta quibusdam assumenda, delectus aliquam consequatur fuga. </p>">
+                <p>Infelizmente seu navegador não é compatível com isso.</p>
+            </iframe>
+        
+        
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, inventore laudantium molestiae iusto dolor nulla voluptatem quibusdam nemo voluptas temporibus quam laborum fugiat ipsam mollitia quas maxime delectus atque debitis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maiores quaerat velit nobis unde, ipsum atque cupiditate, distinctio ullam, officia quibusdam ex laudantium qui minima facere esse quas blanditiis! Nulla!</p>
+    </main>
+</body>
+</html>

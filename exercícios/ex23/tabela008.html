@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalização de Colunas</title>
+
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        table {
+
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+
+            padding: 10px;
+            border: 1px solid black;
+            
+
+        }
+
+        col.c-nome {
+            background-color: lightgray;
+        }
+
+        col.c-sexo {
+
+            background-color: lightgoldenrodyellow;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <table>
+        
+        <colgroup>
+            <col class="c-nome">
+            <col class="c-sexo">
+            <col class="c-idade">
+            <col class="c-profissao">
+        </colgroup>
+        <thead>
+            <th scope="col">Nome</th>    
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Camareira</td>
+            </tr>
+            <tr>
+                <td>Breno</td>
+                <td>M</td>
+                <td>32</td>
+                <td>Cozinheiro</td>
+            </tr>
+            <tr>
+                <td>Amanda</td>
+                <td>F</td>
+                <td>30</td>
+                <td>Analista</td>
+            </tr>
+            <tr>
+                <td>Livia</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>José</td>
+                <td>M</td>
+                <td>53</td>
+                <td>Pedreiro</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
